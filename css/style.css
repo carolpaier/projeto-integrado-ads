@@ -1,0 +1,29 @@
+:root {
+    --maing-color: #ba55d3;
+    --link-color: #f400a1;
+    --text1: #9400d3;
+    --highlight-text: #ae71a9;
+    --input-text: #e091c2;
+    --white-color: #ffffff;
+    --line-input: #ba55d3;
+}
+
+@font-face {
+    font-family: Nixie-One;
+    src: url('../fonts/Nixie_One/NixieOne-Regular.ttf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: Nixie-One, sans-serif;
+}
+
+ul, li {
+    margin: 0;
+    list-style-type: none;
+}
