@@ -1,0 +1,51 @@
+:root {
+    --main-color: #b3b3b3;
+    --link-color: #f400a1;
+    --text1: #6d6d6d;
+    --highligth-text: #f400a1;
+    --input-text: #e091c2;
+    --branco: #ffffff;
+    --line-input: #b3b3b3;
+    --fundo: #2e2e2e;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: var(--fundo);
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+ }
+
+ .logo {
+    margin-top: 0.5vh;
+    margin-left: 0.5vh;
+    color: var(--link-color);
+    font-family: Poppins-Regular, sans-serif;
+    font-size: 30px;
+  }
+
+  .menu {
+    text-decoration: none;
+    color: var(--link-color);
+    margin-right: 12px;
+  }
+  .menu:hover {
+    color: var(--main-color);
+  }
