@@ -49,6 +49,13 @@ body, html {
   color: var(--main-color);
 }
 
+.sair {
+  text-decoration: none;
+  color: var(--main-color);
+  margin-right: 12px;
+  font-size: 14px;
+}
+
 .titulo {
   margin: 35px;
   text-align: center;
