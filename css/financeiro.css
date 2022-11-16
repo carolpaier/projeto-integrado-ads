@@ -27,25 +27,31 @@ body, html {
 }
 
 .container{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;  
-    background-color: var(--main-color);
- }
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;  
+}
 
- .logo {
-    margin: 1vh;
-    color: var(--link-color);
-    font-family: Poppins-Regular, sans-serif;
-    font-size: 30px;
-  }
+.logo {
+  margin: 1vh;
+  color: var(--link-color);
+  font-family: Poppins-Regular, sans-serif;
+  font-size: 30px;
+}
 
-  .menu {
-    text-decoration: none;
-    color: var(--link-color);
-    margin-right: 12px;
-  }
-  .menu:hover {
-    color: var(--fundo);
-  }
+.menu {
+  text-decoration: none;
+  color: var(--link-color);
+  margin-right: 12px;
+}
+.menu:hover {
+  color: var(--main-color);
+}
+
+.construcao {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 50px;
+  color: var(--main-color);
+}

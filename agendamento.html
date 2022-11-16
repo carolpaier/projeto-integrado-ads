@@ -24,5 +24,63 @@
         </div>
       </header>
 
+      <div>
+          <h1 class="titulo">Agendamento</h1>
+        <p class="orientacao">Para realizar o agendamento informe o nome da cliente, selecione o procedimento, data e horário</p>
+
+        <main class="formulario">
+          <form>
+            <div class="wrap-input">
+              <label>Cliente:</label>
+              <input type="text" class="input">
+            </div>
+  
+            <fieldset class="procedimento">
+              <legend>Procedimento:</legend>
+              <div class="select">
+              <select class="select">
+                <option>Massagem Modeladora</option>
+                <option>Drenagem Linfática</option>
+                <option>Massagem Relaxante</option>
+                <option>Limpeza de Pele</option>
+                <option>Pelling</option>
+                <option>Microagulhamento</option>
+                <option>Maquiagem</option>
+                <option>Design de Sobrancelha</option>
+                <option>Lash Design</option>
+              </select>
+            </div>
+            </fieldset>
+            
+            <div class="wrap-input">
+              <label>Data:</label>
+              <input type="date" class="input">
+            </div>
+
+            <div class="wrap-input">
+              <label>Horário:</label>
+              <input type="time" class="input" min="09:00" max="20:00">
+            </div>
+            
+            <label for="observacao">Observações:</label>
+                <textarea style="resize: none" cols="60" rows="5" id="observacao"></textarea>  
+              </div>
+
+              <div class="agendar-btn">
+                <button type="submit" class="agendar" onclick="agendado()">Agendar</button>                        
+            </div>
+  
+          </form>
+
+        </main>
+                
+      </div>
+
+      <script>
+        function agendado(){
+           alert("Procedimento Agendado com Sucesso!");
+        }
+    </script>
+
 </body>
 </html> 

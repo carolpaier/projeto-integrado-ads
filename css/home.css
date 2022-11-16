@@ -31,7 +31,6 @@ body, html {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;  
-    background-color: var(--main-color);
  }
 
  .logo {
@@ -47,7 +46,7 @@ body, html {
     margin-right: 12px;
   }
   .menu:hover {
-    color: var(--fundo);
+    color: var(--main-color);
   }
 
   .produtos {

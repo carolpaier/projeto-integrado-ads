@@ -90,6 +90,7 @@ button:hover {
     color: var(--link-color);
     line-height: 1.2;
     text-align: center;
+    margin-bottom: 70px;
   }
 
   .wrap-input {
