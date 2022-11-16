@@ -32,7 +32,7 @@
           <form>
             <div class="wrap-input">
               <label>Cliente:</label>
-              <input type="text" class="input">
+              <input type="text" class="input" required>
             </div>
   
             <fieldset class="procedimento">
@@ -54,12 +54,12 @@
             
             <div class="wrap-input">
               <label>Data:</label>
-              <input type="date" class="input">
+              <input type="date" class="input" required>
             </div>
 
             <div class="wrap-input">
               <label>Horário:</label>
-              <input type="time" class="input" min="09:00" max="20:00">
+              <input type="time" class="input" min="09:00" max="20:00" required>
             </div>
             
             <label for="observacao">Observações:</label>
@@ -76,11 +76,11 @@
                 
       </div>
 
-      <script>
+      <!--<script>
         function agendado(){
            alert("Procedimento Agendado com Sucesso!");
         }
-    </script>
+    </script>-->
 
 </body>
 </html> 
